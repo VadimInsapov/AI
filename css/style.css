@@ -161,7 +161,7 @@ body {
 .link:hover {
     color: #f29515;
 }
-.like:hover{
+.like {
     cursor: pointer;
 }
 
