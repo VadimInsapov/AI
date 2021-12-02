@@ -161,7 +161,9 @@ body {
 .link:hover {
     color: #f29515;
 }
-
+.like:hover{
+    cursor: pointer;
+}
 
 .error {
     color: red;

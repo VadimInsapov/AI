@@ -37,11 +37,22 @@
                     </div>
                 </div>
                 <div class="song__extra">
-                    <div class="song__extra-param"><i class="far fa-heart fa-2x"></i></div>
+                    <div class="song__extra-param"><i aria-hidden="true" class="like far fa-heart fa-2x"></i></div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        document.querySelector('.like').addEventListener('click',function(e){
+            if(this.classList.contains('far')){
+                this.classList.add('fa');
+                this.classList.remove('far');
+            } else{
+                this.classList.add('far');
+                this.classList.remove('fa');
+            }
+        })
+    </script>
 </div>
 </body>
 </html>
