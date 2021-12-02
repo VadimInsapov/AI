@@ -9,6 +9,11 @@ body {
     font-size: 18px;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     margin: 0 auto;
     width: 900px;
@@ -118,25 +123,30 @@ body {
     align-items: center;
     margin: 0px 10px 0px 50px;
 }
-.song__logo-box{
+
+.song__logo-box {
     width: 65px;
     height: 65px;
 }
+
 .img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
-.song__main{
+
+.song__main {
     display: flex;
 }
-.song__param{
+
+.song__param {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.song__number{
+
+.song__number {
     border: white solid;
     border-radius: 10px;
     padding: 10px;
@@ -146,13 +156,17 @@ body {
     text-align: left;
     margin-bottom: 13px;
 }
-.song__extra{
-    margin-left:auto
+
+.song__extra {
+    display: flex;
+    margin-left: auto
 }
-.song__extra-param{
+
+.song__extra-param {
     margin-left: 20px;
-    color:white;
+    color: white;
 }
+
 .link {
     color: #2E3235;
     text-decoration: none;
@@ -161,6 +175,7 @@ body {
 .link:hover {
     color: #f29515;
 }
+
 .like {
     cursor: pointer;
 }
@@ -174,4 +189,3 @@ body {
 .button--w-70 {
     width: 70%;
 }
-
