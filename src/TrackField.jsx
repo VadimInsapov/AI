@@ -15,7 +15,7 @@ function TrackField(props) {
                     </div>
                 </div>
                 <div className="song__extra">
-                    <div className="song__extra-param"><a href={props.url}><i class="like far fa-play-circle fa-2x"></i></a></div>
+                    <div className="song__extra-param"><a target="_blank" rel="noopener noreferrer" href={props.url}><i class="like far fa-play-circle fa-2x"></i></a></div>
                     <div className="song__extra-param"><i aria-hidden="true" className="like far fa-heart fa-2x"></i></div>
                 </div>
             </div>
