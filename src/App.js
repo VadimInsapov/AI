@@ -5,7 +5,7 @@ import SpotifyWebApi from 'spotify-web-api-js'
 const ids = ['3dtBVBClM5ms0qCBBrqpUb', '3U8Ev1gISsx6O1uwpsttOD', '44aN5xKL3kGHvQ5bXVk6B8', '73jGEWVGc5OPZ4e1SEIXT3'];
 
 const spotify = new SpotifyWebApi();
-spotify.setAccessToken('BQBUZyAlp2fAHJ_fIRstNRT1INynrRaSVzoQHVkpREa7QFdodzYuylOQbNKwcC_HzPVco9yRVbx9XnH1w4A');
+spotify.setAccessToken('BQDqIQFHFXXiW8fsG3k3EEXFSYzz5p__FzmM9bekHnqU9JWc5ibcBG4Vp2vH9oMf8YPCoXN06wrHxeAY63I');
 
 function App() {
   const [tracks, setTracks] = useState([]);

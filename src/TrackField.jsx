@@ -1,6 +1,5 @@
 function TrackField(props) {
     return (
-
         <div className="song">
             <div className="song__inner">
                 <div className="song__number">{"#" + props.number}</div>
